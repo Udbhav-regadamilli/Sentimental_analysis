@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SENTIMENT ANALYSIS</title>
+</head>
+<body style="background-color: aquamarine;">
+  <h1 align="center">SENTIMENT ANALYSIS</h1>
+</br>
+</br>
+
+  <form align="center" method="post" action="/predict">
+    <label for="inputField">Enter Your Review</label>
+    <input type="text" id="inputField" name="Review" placeholder="Type Here" required>
+</br>
+</br>
+</br>
+</br>
+    <button  type="submit">Submit</button>
+  </form>
+  <h3 align="center">{{ prediction_text }}</h3>
+</body>
+</html>
